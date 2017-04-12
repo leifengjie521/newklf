@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+    <meta charset="utf-8"/>
+	<meta http-equiv="x-ua-compatible" content="ie=7" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/shouye.css"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/ProductsList.css"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/ProductDetails.css"/>
+ </head>
+ <body><!-- 头部-->
+<div class="header">
+    <!-- 紫色头部-->
+	<div class="Zheader">
+	   <!-- 紫色居中-->
+	   <div class="zcenter">
+			<!-- 收藏-->
+	        <div class="HSC"><a href="#"><img src="__PUBLIC__/home/images/HSC.jpg" style="width:50px;"/></a></div>
+			<!-- 导航-->
+			<div class="H-nav">
+				<if condition="$_SESSION['name'] neq ''">
+					<p class="hello">您好<a href="">{$_SESSION['name']}</a></p>
+					<p class="mianfeizc"><a href="{:U('Public/loginout')}">退出</a></p>
+				<else/>
+					<p class="hello">您好！请<a href="{:U('Public/login')}">登陆</a> </p>
+					<p class="mianfeizc"><a href="{:U('Public/register')}">免费注册</a></p>
+				</if>	
+				
+				<p class="MYdd"><a href="MyOrder.html">我的订单</a></p>
+				<p class="MyESTTILOS"><a href="MemberCenter.html">我的ESTTILOS<img  class="bottom-jiantou"  src="__PUBLIC__/home/images/xiaoxiajiantou.jpg"/><a></p>
+				<p class="ESTTILOSuser"><a href="MemberCenter.html">ESTILOS 会员</a></p>
+				<p class="qiyeCG"><a href="#">企业采购</a></p>
+				<p class="phoneESTTILOS"><a href="PhoneLogin.html"><img class="phone-s" src="__PUBLIC__/home/images/phone-S.jpg"/>手机ESTTILOS<img class="bottom-jiantou"  src="__PUBLIC__/home/images/xiaoxiajiantou.jpg"/><a></p>
+				<p class="GZESTTILOS"><a href="#">关注ESTTILOS<img class="bottom-jiantou"  src="__PUBLIC__/home/images/xiaoxiajiantou.jpg"/><a></p>
+				<p class="kffw"><a href="#">客服服务<img class="bottom-jiantou"  src="__PUBLIC__/home/images/xiaoxiajiantou.jpg"/><a></p>
+				<p class="WZ-nav"><a href="#">网站导航</a></p>
+			</div>
+		</div>
+	</div>
+    <!-- 白色头部-->
+    <div class="Bheader" style="height:196;">
+		 <!-- 白色居中-->
+	    <div class="bcenter">
+			<!-- 白色上半部分-->
+			<div class="baiseT">
+			    <!--  logo-->
+			   <div class="logo" ><img src="__PUBLIC__/home/images/logo.jpg" style="width:300px;height:80px;"/></div>
+			    <!--搜索-->
+			    <div class="SSH">
+				    <!-- 搜索框盒子-->
+				    <div class="SSKH">
+					    <!-- 搜索框-->
+						<input class="sousuoK" type="text" />
+						<!-- 搜索按钮-->
+						<input class="anniu" type="submit" value="搜索" />
+				    </div>
+				    <!-- 热门搜索-->
+				    <div class="hotSSH">
+					    <ul class="hotH">
+							<li><span class="hot-sousuo">热门搜索：</span><a href="#"  class="cooltj">潮流推荐</a></li>
+							<li><a href="#">时尚尖货</a></li>
+							<li><a href="#">新品上市</a></li>
+							<li class="zuihou"><a href="#">百搭时装</a></li>
+						</ul>
+					</div>
+			    </div>
+				<div class="shopping-card"><a href="ShoppingCrat.html"><img src="__PUBLIC__/home/images/shopping-card.jpg"/></a></div>
+			</div>
+			<!-- 白色下半部分-->
+			<div class="baiseB">
+			    <!-- 全部商品-->
+				<div class="all-commodity"><a href="ProductsList.html"><img src="__PUBLIC__/home/images/all-commodity.jpg"/></a></div>
+				<!--大导航-->
+				<div class="big-hav">
+				    <ul>
+						<foreach name="nav" item="vo">
+							<li><a href="{$vo.url}">{$vo.name}</a></li>
+						</foreach>
+					    <!-- <li><a href="shouye.html">首页</a></li>
+						<li><a href="#">所有商品</a></li>
+						<li><a href="#"  class="new-tuijian">新品推荐</a></li>
+						<li><a href="#">一周保包邮专场</a></li>
+						<li><a href="#">T恤/忖衫</a></li>
+						<li><a href="#">连衣裙</a></li>
+						<li><a href="#">蕾丝/雪纺</a></li>
+						<li><a href="#">上装</a></li>
+						<li><a href="#">下装</a></li>
+						<li class="bhLast"><a href="#">商城同款</a></li> -->
+					</ul>
+			    </div>
+			</div>
+	    </div>
+	</div>
+</div>

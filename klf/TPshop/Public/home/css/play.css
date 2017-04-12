@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+.current{ width:1200px; height:40px; margin:auto; line-height:40px;}
+.current a{ font-size:12px; color:#333;}
+.current .red{ color:#7c0000; text-decoration:underline;}
+.details{width:1200px; height:4745px; margin:auto; margin-top:40px;}
+
+.enlarge{ width:429px; height:541px; float:left;}
+
+.buy{ width:453px; float:left; margin-left:40px;}
+.buy h1{ margin-top:28px;}
+.buy h1 p{ font-family:"微软雅黑"; font-size:18px; color:#333;}
+.buy h1 p.curtp{ margin-top:10px; font-size:12px; color:#666;}
+.buy h2{ height:85px; background:#900; margin-top:17px;}
+.buy h2 p{ color:#fff; float:left; width:300px;}
+.buy h2 p.apple{ margin-top:14px; margin-left:30px; display:inline;}
+.buy h2 p.apple b{ font-family:"微软雅黑"; font-size:20px;}
+.buy h2 p.apple i{font-family:"微软雅黑"; font-size:20px; margin-left:15px;}
+.buy h2 p.apple span{ font-size:12px; margin-left:20px;}
+.buy h2 p.stars{ margin-top:15px; height:22px;}
+.buy h2 p.stars{ margin-left:128px; display:inline;}
+.buy h2 p.stars b{ float:left; font-size:12px; margin-top:5px;}
+.buy h2 p.stars span{ float:left; width:22px; height:21px; background: url(../images/ioc.png) no-repeat left -879px; margin-left:10px;}
+.buy h2 p.stars .starsx{ background:url(../images/ioc.png) no-repeat left -929px;}
+.buy h3{ text-align:center; color:#666; margin-top:14px;}
+.buy h3 b{ margin-right:38px; color:#666;}
+.buy h3 span{ margin-left:38px; color:#666;}
+.buy ul{ width:453px;}
+.buy ul li{ float:left; width:453px; margin-top:15px;}
+.buy ul li label{font-family:"微软雅黑"; color:#333; float:left; width:70px; text-align:right;}
+.buy ul li label.hai{ height:50px; line-height:50px;}
+.buy ul li.yans b{ cursor:pointer; width:49px; height:50px; float:left; position:relative;}
+.buy ul li.yans b img{ width:47px; height:48px; margin-left:1px; margin-top:1px;}
+.buy ul li.yans b i{ background:url(../images/fangkuangs.png); width:49px; height:50px; float:left; position:absolute; top:0px; left:0px;}
+
+.buy ul li b{ margin-left:25px; float:left;}
+.buy ul li.men b{ width:47px; height:19px; text-align:center; line-height:19px; border:#999 solid 1px; color:#666; margin-top:1px; cursor:pointer;}
+.buy ul li.men b.menshu{ background:url(../images/menshu.png);}
+.buy ul li.fahuo b{ color:#666; margin-top:3px;}
+.buy ul li.shulg input{ float:left; width:45px; height:18px; text-align:center;}
+.buy ul li.shulg dl{ float:left; margin-left:2px; margin-top:1px;}
+.buy ul li.shulg dl dt{ width:7px; height:7px; border:#666 solid 1px; color:#666; font-size:10px; text-align:center; line-height:7px; cursor:pointer;}
+.buy ul li.shulg dl dd{ width:7px; height:7px; border:#666 solid 1px; color:#666; font-size:10px; text-align:center; line-height:7px; margin-top:2px; cursor:pointer;}
+.buy ul li.shulg span{ float:left; color:#999; font-size:12px; margin-left:10px; margin-top:4px;}
+.buy ul li.yunf b{ color:#333; margin-top:2px;}
+.buy ul li.fu p{ float:left; font-size:12px; margin-left:25px; margin-top:5px; color:#333;}
+.buy ul li.fu p i{ width:25px; height:19px; background:#990000; color:#fff; float:left; line-height:19px; text-align:center; margin-left:20px;}
+.buy ul li.fu p i.mianf{ margin-left:0px;}
+.buy ul li.fu p span{ float:left; font-size:12px; margin-left:6px; color:#666; margin-top:3px;}
+.buy ol{ margin-top:30px; float:left;}
+.buy ol li{ float:left;}
+.buy ol li.now{ width:226px; height:41px; background:url(../images/now.jpg); text-align:center; color:#fff; line-height:41px;}
+.buy ol li.now a{font-family:"微软雅黑"; font-size:18px; color:#fff;}
+.buy ol li.join{ width:183px; height:37px; text-align:center; line-height:37px; border:#990000 solid 1px; margin-left:38px;}
+.buy ol li.join a{font-family:"微软雅黑"; font-size:18px; color:#990000;}
+
+.see{ float:right; width:213px; height:538px; border:#CCC solid 1px; position:relative;}
+.see .bows{ width:236px; height:103px; background:url(../images/see.png); position:absolute; top:-33px;}
+.see ul{ width:213px; text-align:center; margin-top:85px;}
+.see ul li{ margin-top:18px;}
+.see ul li.diyge{margin-top:85px;}
+.see ul li p{ margin-top:10px;}
+.see ul li p a{ font-size:12px; color:#900; text-decoration:underline; padding-left:17px;}
+
+.match{ float:left; width:1200px; height:242px; border:#CCC solid 1px; margin-top:55px; position:relative;}
+.match strong{ display:block; width:162px; height:42px; line-height:42px; text-align:center; position:absolute; top:-42px; left:0px; border-left:#CCC solid 1px; border-right:#CCC solid 1px; border-top:#900 solid 1px;}
+.match strong b{font-family:"微软雅黑"; font-size:18px; color:#333;}
+.match strong span{font-family:"Arial"; font-size:12px; color:#900; margin-left:5px;}
+.match h2{ height:44px; line-height:44px;}
+.match h2 span{ margin-left:40px; color:#666;}
+.match h2 span.light{ color:#900;}
+.match ul{ float:left; margin-left:40px; padding-top:10px; background:url(../images/jianbian.png) no-repeat; display:inline;}
+.match ul li{ float:left;}
+.match ul li.letone{ margin-left:25px; display:inline;}
+.match ul li img{ width:111px; height:132px;}
+.match ul li p{ margin-top:8px;}
+.match ul li p.youyj a{ font-size:12px; color:#666;}
+.match ul li p.jiaq a{font-family:"Arial"; color:#990000;}
+.match ul li.plus{ width:35px; height:35px; background:url(../images/plus.png); margin-left:54px; margin-top:72px;}
+.match ul li dl{ margin-left:56px;}
+.match ul li dl dt{ float:left;}
+.match ul li dl dt img{ width:106px; height:126px;}
+.match ul li dl dt p{ margin-top:5px;}
+.match ul li dl dt p a{ font-size:12px; color:#666;}
+.match ul li dl dt p span{ margin-left:40px;}
+.match ul li dl dt p span a{ font-size:14px;font-family:"Arial"; color:#900;}
+.match ul li dl dd{ float:left; border-left:#CCC solid 1px; margin-left:30px; margin-right:20px; height:120px; margin-top:30px;}
+.match ul li.are{ width:35px; height:13px; background:url(../images/are.png); margin-left:53px; margin-top:85px;}
+.match ul li.end{ margin-left:40px; margin-top:30px;}
+.match ul li.end p{font-family:"微软雅黑"; font-size:16px; margin-top:5px;}
+.match ul li.end p b{font-family:"微软雅黑"; font-size:20px; color:#900;}
+.match ul li.end p.number{ font-size:24px; color:#900;}
+.match ul li.end p span a{font-family:"微软雅黑"; font-size:16px; color:#FFF;}
+.match ul li.end p span{ background:#900; width:122px; height:28px; display:block; line-height:28px; text-align:center;}
+
+.other{ float:left; width:1200px; margin-top:35px;}
+.leftnav{ float:left;}
+.baby{ width:213px; height:568px; border:#CCC solid 1px; overflow:hidden;}
+.baby h1{font-family:"微软雅黑"; font-size:18px; height:48px; line-height:48px; border-bottom:#CCC solid 1px; padding-left:14px;}
+.baby h2{ height:24px;}
+.baby h2 span{ float:left; width:106px; height:24px; line-height:24px; text-align:center; color:#900; cursor:pointer;}
+.baby h2 .red{ background:#900; color:#fff;}
+.baby dl{ margin-top:5px; display:none;}
+.baby dl.show{ display:block;}
+.baby dl dt{ margin-top:7px; margin-left:10px; height:90px; border-bottom:#CCC solid 1px; width:190px;}
+.baby dl dt.xian{ border-bottom:0px;}
+.baby dl dt b{ float:left;}
+.baby dl dt p{ float:left; font-size:12px; width:120px; margin-top:10px; color:#666; margin-left:5px;}
+.baby dl dt p.youyj a:hover{ color:#900; text-decoration:underline;}
+.baby dl dt p a{ font-size:12px; color:#666;}
+.baby dl dt p.red a{ color:#900; font-size:12px; font-family:"Arial";}
+
+.xgcp{ width:213px; height:633px; border:#ccc solid 1px; margin-top:20px;}
+.xgcp h4{ height:48px; border-bottom:#ccc solid 1px; line-height:48px; padding-left:12px;font-family:"微软雅黑"; font-size:18px;}
+.xgcp ul li{ text-align:center; margin-top:7px; width:190px; height:185px; border-bottom:#ccc solid 1px; margin-left:10px;}
+.xgcp ul li.xian2{ border-bottom:0px;}
+.xgcp ul li p{ margin-top:5px;}
+.xgcp ul li p.xiahx a:hover{ color:#900; text-decoration:underline;}
+.xgcp ul li p img{width:101px; height:135px;}
+.xgcp ul li p a{ font-size:12px; color:#999;}
+.xgcp ul li p.red{ height:18px; line-height:18px; margin-left:40px;}
+.xgcp ul li p.red a{ color:#900;float:left;font-family:"微软雅黑"; font-size:18px;} 
+.xgcp ul li p a.xiaxi{ width:36px; height:16px; border:#ccc solid 1px; text-align:center; line-height:16px; font-size:12px; margin-left:30px;}
+.xgcp ul li p a.xiaxi:hover{ background:#900; color:#fff;}
+
+.other .rightcon{ float:right; width:962px;}
+.rightcon .comdet{ height:200px; border:#ccc solid 1px;}
+.comdet h2{ width:960px; border-bottom:#ccc solid 1px; float:left;}
+.comdet h2 span{ width:128px; height:47px; float:left; line-height:47px; text-align:center; color:#900; border-right:#CCC solid 1px; cursor:pointer;}
+.comdet h2 span.bgred{ background:#900; color:#fff;}
+.comdet div{ display:none;}
+.comdet div.show{ display:block;}
+.comdet ul{ float:left; margin-left:20px; margin-top:5px;}
+.comdet ul.two{ margin-left:180px;}
+.comdet ul li{font-family:"微软雅黑"; font-size:12px; color:#666; margin-top:10px;}
+
+.insert{ margin-top:25px;}
+
+.rate{ height:200px; border:#ccc solid 1px; margin-top:30px;}
+.rate h4{ width:960px; border-bottom:#ccc solid 1px; float:left;}
+.rate h4 span{ width:132px; height:38px; float:left; line-height:38px; border-right:#CCC solid 1px; text-align:center; color:#900; cursor:pointer;}
+.rate h4 span.bgred{ background:#900; color:#fff;}
+.rate ol{ float:left; display:none;}
+.rate .show{ display:block;}
+.rate ol li{ float:left;}
+.rate ol li.redxinx{ margin-left:40px; margin-top:15px; display:inline;}
+.rate ol li.redxinx b{font-family:"微软雅黑"; font-size:64px; color:#900; margin-left:6px;}
+.rate ol li.redxinx p{ margin-top:18px;}
+.rate ol li.redxinx p span{ float:left; width:21px; height:20px; background:url(../images/ioc.png) no-repeat left -957px; margin-left:6px;}
+.rate ol li.redxinx p span.empty{ background:url(../images/ioc.png) no-repeat left -980px;}
+.rate ol li.happy{ width:290px; margin-left:50px; margin-top:42px;}
+.rate ol li.happy p{ float:left;}
+.rate ol li.happy p b{ float:left;font-family:"微软雅黑"; font-size:17px; width:51px; text-align:right; color:#900;}
+.rate ol li.happy p span{ float:left; width:181px; height:10px; margin-left:15px; margin-top:7px; background:url(../images/ioc.png) no-repeat left -1032px;}
+.rate ol li.happy p span.progress{ background:url(../images/ioc.png) no-repeat left -1011px;}
+.rate ol li.happy p i{ float:left; font-family:"微软雅黑"; font-size:12px; color:#900; margin-left:10px; margin-top:4px;}
+.rate ol li.bell{ font-size:12px; color:#666; height:160px; line-height:160px; margin-left:50px;}
+.rate ol li.claims{width:270px; margin-top:25px; margin-left:22px;}
+.rate ol li.claims p{ float:left; margin-top:8px;width:270px;}
+.rate ol li.claims p.nic{ margin-top:16px;}
+.rate ol li.claims p b{ float:left; width:148px; height:24px; background:#900; color:#fff; font-family:"微软雅黑"; text-align:center; margin-left:58px;}
+.rate ol li.claims p span{ float:left; font-size:12px; color:#900; margin-left:8px;}
+.rate ol li.claims p span.curt{ margin-left:0px;}
+
+.user{ float:left; border:#CCC solid 1px; width:960px; height:1010px;}
+.user ul{ float:left; margin-top:30px; margin-left:25px; display:inline;}
+.user ul li{ float:left;}
+.user ul li.pinlu{ width:350px;}
+.user ul li.pinlu p{ font-size:12px; color:#666; float:left;}
+.user ul li.pinlu p b{ font-size:12px; color:#666;}
+.user ul li.pinlu p{ margin-top:5px;}
+.user ul li.pinlu p.fanku{ margin-top:36px; width:260px;}
+.user ul li.pinlu p.fanku b{ background:#ffcccc; float:left; width:77px; height:21px; text-align:center; line-height:21px; margin-left:13px;}
+.user ul li.pinlu p.fanku b.curt{ margin-left:0px;}
+.user ul li.time{ width:135px; margin-left:24px;}
+.user ul li.time p{ width:135px; float:left; font-size:12px; color:#666; margin-top:12px;}
+.user ul li.time p span{ float:left; width:21px; height:20px; background:url(../images/ioc.png) no-repeat left -957px; margin-left:5px;}
+.user ul li.time p span.nic{ margin-left:0px;}
+.user ul li.time p.qusb{ margin-top:30px; margin-left:5px;}
+.user ul li.pearl{ margin-left:40px;}
+.user ul li.pearl p{ font-size:12px; color:#666;}
+.user ul li.pearl p.xinhao{ margin-top:14px;}
+.user ul li.youhu{ width:160px; margin-left:70px;}
+.user ul li.youhu p{ float:left;}
+.user ul li.youhu p.gouma{ font-size:12px; margin-top:12px; color:#666; width:130px;}
+.user ul li.youhu p b{ float:left;}
+.user ul li.youhu p span{ float:left;}
+.user ul li.youhu p span i{ display:block; margin-left:20px; color:#666;}
+.user ul li.youhu p span i.didian{ font-size:12px; margin-top:12px;}
+.user h5{ float:left; margin-left:25px; margin-top:17px; display:inline; width:900px;}
+.user h5 b{ font-size:12px; color:#666;}
+.user h5 span{ font-size:12px; color:#666; margin-left:40px;}
+.user ul.toubu{ border-top:#CCC solid 1px; padding-top:28px; width:900px;}
+.user form{ float:left;}
+.user form h6{ background:url(../images/wenbenyu.png) no-repeat; width:900px; height:110px; margin-left:25px; margin-top:5px;}
+.user form h6 b{ float:left; margin-top:12px; margin-left:1px;}
+.user form h6 textarea{ border:0px; width:655px; height:75px; color:#cfcccc; font-size:12px; padding:10px;}
+.user form h1{ margin-left:25px; width:680px; margin-top:10px;}
+.user form h1 span{ float:right; width:64px; height:26px; background:#900; color:#fff; text-align:center; line-height:26px; cursor:pointer; font-size:12px;}
+.user dl{ float:left; margin-left:37px; display:inline; margin-top:16px; width:900px;}
+.user dl.two{ margin-top:0px;}
+.user dl dt{ float:left; width:112px; height:78px; padding-left:11px; padding-top:10px; border-right:#CCC solid 1px; border-bottom:#ccc solid 1px;}
+.user dl.two dt{ border-bottom:0px;}
+.user dl dt b{ float:left;}
+.user dl dt span{ float:left; margin-left:6px; font-size:12px; margin-top:2px; color:#666;}
+.user dl dd{ float:left; padding-left:15px; padding-top:9px; border-bottom:#ccc solid 1px; height:79px;}
+.user dl.two dd{ border-bottom:0px;}
+.user dl dd p{ font-size:12px; color:#666; margin-top:5px;}
+.user dl dd p.huifu{ text-align:right; margin-top:22px;}
+.user ol{ float:left;}
+.user ol li{ float:left; width:24px; height:19px; border:#CCC solid 1px; text-align:center; line-height:19px; font-size:12px; margin-left:7px; color:#333;}
+.user ol .red{ border:#900 solid 1px;}
+.user ol li.shang{ width:56px; height:19px; text-align:center; line-height:19px;}
+.user ol li.xia{ width:56px; height:19px; text-align:center; line-height:19px;}
+.user .tiaozh{ float:left; margin-left:20px;}
+.user .tiaozh b{ color:#333; font-size:12px; float:left; height:19px; line-height:19px;}
+.user .tiaozh i{ margin-left:7px; color:#333; font-size:12px; float:left;}
+.user .tiaozh i input{ width:40px; text-align:center; float:left;}
+.user .tiaozh span{ margin-left:7px; color:#333; font-size:12px; float:left; height:19px; line-height:19px;}
+.user .yema{ float:left; margin-top:50px; position:relative; left:535px;}
+
+.huiyx{ float:left; border:#CCC solid 1px; width:960px; height:480px; margin-top:28px;}
+.huiyx h1{ float:left; height:45px; background:#e7e4e4; width:960px; line-height:45px; border-bottom:#ccc solid 1px;}
+.huiyx h1 span{ float:left; font-family:"微软雅黑"; font-size:18px; color:#333;}
+.huiyx h1 span.huyu{ margin-left:20px;}
+.huiyx h1 span.shangp{ margin-left:137px;}
+.huiyx h1 span.shouh{ margin-left:250px;}
+.huiyx h1 span.jians{ margin-left:139px;}
+.huiyx h1 span.chenji{ margin-left:67px;}
+.huiyx ul{ float:left; margin-top:10px;}
+.huiyx ul li{ float:left; margin-top:26px;}
+.huiyx ul li b{ float:left; font-size:12px; color:#666;}
+.huiyx ul li b p{ font-size:12px; color:#666;}
+.huiyx ul li b.hangz{ margin-left:20px; width:135px;}
+.huiyx ul li b.changx{ margin-left:55px;}
+.huiyx ul li b.xiangh{ margin-left:58px;}
+.huiyx ul li b.shuz{ margin-left:48px;}
+.huiyx ul li b.riqi{ margin-left:80px;}
+.huiyx ol{ float:left;}
+.huiyx ol li{ float:left; width:24px; height:19px; border:#CCC solid 1px; text-align:center; line-height:19px; font-size:12px; margin-left:7px; color:#333;}
+.huiyx ol .red{ border:#900 solid 1px;}
+.huiyx ol li.shang{ width:56px; height:19px; text-align:center; line-height:19px;}
+.huiyx ol li.xia{ width:56px; height:19px; text-align:center; line-height:19px;}
+.huiyx .tiaozh{ float:left; margin-left:20px;}
+.huiyx .tiaozh b{ color:#333; font-size:12px; float:left; height:19px; line-height:19px;}
+.huiyx .tiaozh i{ margin-left:7px; color:#333; font-size:12px; float:left;}
+.huiyx .tiaozh i input{ width:40px; text-align:center; float:left;}
+.huiyx .tiaozh span{ margin-left:7px; color:#333; font-size:12px; float:left; height:19px; line-height:19px;}
+.huiyx .yema{ float:left; position:relative; left:535px; top:15px;}
+
+
+
+

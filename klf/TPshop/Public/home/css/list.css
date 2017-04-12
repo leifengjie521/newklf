@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+.current{ width:1200px; height:40px; margin:auto; line-height:40px;}
+.current a{ font-size:12px; color:#333;}
+.current .red{ color:#7c0000; text-decoration:underline;}
+.content{width:1200px; height:1950px; margin:auto;}
+
+.content .navleft{ float:left; width:215px; height:1815px;}
+.navleft .category{ width:213px; height:568px; border:#cecece solid 1px;}
+.navleft .category h2{font-family:"微软雅黑"; font-size:18px; height:47px; line-height:47px; color:#fff; background:#900; padding-left:12px; border-bottom:#CCC solid 1px;}
+.navleft .category dl dt{ padding-left:27px; height:36px; line-height:36px; border-bottom:#CCC solid 1px; background:url(../images/ioc.png) no-repeat 10px -660px; color:#666; cursor:pointer;}
+.navleft .category dl dt.bag{ background:url(../images/ioc.png) no-repeat 10px -719px; color:#900;}
+.navleft .category dl dd ul{ display:none;}
+.navleft .category dl dd ul.show{ display:block;}
+.navleft .category dl dd li a{ width:164px; height:19px; line-height:19px; color:#666; display:block; padding-left:17px; margin-left:20px; margin-top:10px;}
+.navleft .category dl dd li a:hover{ background:#900; color:#fff; text-decoration:underline;}
+
+.navleft .baby{ width:213px; height:568px; border:#CCC solid 1px; margin-top:20px; overflow:hidden;}
+.navleft .baby h1{font-family:"微软雅黑"; font-size:18px; height:48px; line-height:48px; border-bottom:#CCC solid 1px; padding-left:14px;}
+.navleft .baby h2{ height:24px;}
+.navleft .baby h2 span{ float:left; width:106px; height:24px; line-height:24px; text-align:center; color:#900; cursor:pointer;}
+.navleft .baby h2 .red{ background:#900; color:#fff;}
+.navleft .baby dl{ margin-top:5px; display:none;}
+.navleft .baby .show{ display:block;}
+.navleft .baby dl dt{ margin-top:7px; margin-left:10px; height:90px; border-bottom:#CCC solid 1px; width:190px;}
+.navleft .baby dl dt.xian{ border-bottom:0px;}
+.navleft .baby dl dt b{ float:left;}
+.navleft .baby dl dt p{ float:left; font-size:12px; width:120px; margin-top:10px; color:#666; margin-left:5px;}
+.navleft .baby dl dt p.youyj a:hover{ color:#900; text-decoration:underline;}
+.navleft .baby dl dt p a{ font-size:12px; color:#666;}
+.navleft .baby dl dt p.red a{ color:#900; font-size:12px; font-family:"Arial";}
+
+
+.navleft .xgcp{ width:213px; height:633px; border:#ccc solid 1px; margin-top:20px;}
+.navleft .xgcp h4{ height:48px; border-bottom:#ccc solid 1px; line-height:48px; padding-left:12px;font-family:"微软雅黑"; font-size:18px;}
+.navleft .xgcp ul li{ text-align:center; margin-top:7px; width:190px; height:185px; border-bottom:#ccc solid 1px; margin-left:10px;}
+.navleft .xgcp ul li.xian2{ border-bottom:0px;}
+.navleft .xgcp ul li p{ margin-top:5px;}
+.navleft .xgcp ul li p.xiahx a:hover{ color:#900; text-decoration:underline;}
+.navleft .xgcp ul li p img{width:101px; height:135px;}
+.navleft .xgcp ul li p a{ font-size:12px; color:#999;}
+.navleft .xgcp ul li p.red{ height:18px; line-height:18px; margin-left:40px;}
+.navleft .xgcp ul li p.red a{ color:#900;float:left;font-family:"微软雅黑"; font-size:18px;} 
+.navleft .xgcp ul li p a.xiaxi{ width:36px; height:16px; border:#ccc solid 1px; text-align:center; line-height:16px; font-size:12px; margin-left:30px;}
+.navleft .xgcp ul li p a.xiaxi:hover{ background:#900; color:#fff;}
+
+
+.content .conright{ float:left; width:955px; margin-left:30px;}
+.conright .recommend{ width:953px; height:232px; border:#CCC solid 1px;}
+.conright .recommend h3{font-family:"微软雅黑"; font-size:18px; height:48px; line-height:48px; border-bottom:#CCC solid 1px; padding-left:30px; color:#333;}
+.conright .recommend .tjlunbo{ width:953px; height:183px; position:relative; overflow:hidden;}
+.recommend .tjlunbo ul{ float:left; margin-top:25px; position:absolute; left:0px;}
+.recommend .tjlunbo ul li{ float:left; margin-left:40px; width:280px}
+.recommend .tjlunbo ul li.nic{ margin-left:5px;}
+.recommend .tjlunbo ul li b{ float:left; margin-left:10px; position:relative;}
+
+.recommend ul li b img{ margin-top:25px;}
+.recommend ul li b .list1 a{ color:#333;}
+.recommend ul li b .list2{ margin-top:10px;}
+.recommend ul li b .list2 a{ color:#666; font-size:12px;}
+.recommend ul li b .list3 a{ color:#666; font-size:12px;}
+.recommend ul li b .list4{ margin-top:16px;}
+.recommend ul li b .list4 a{ font-size:16px; color:#900;}
+.recommend ul li b .list4 span{ margin-left:14px;}
+.recommend ul li b .list4 span a{ font-size:12px; color:#666; text-decoration:line-through;}
+.recommend ul li b .list5{ color:#666; margin-top:13px; font-size:12px;}
+.recommend ul li b strong{ width:77px; height:22px; background:#7c0000; display:block; text-align:center; line-height:22px; position:absolute; right:-5px; bottom:0px;}
+.recommend ul li b strong a{ font-size:12px; color:#fff;}
+
+.recommend .tjlunbo .up{ width:22px; height:30px; background:url(../images/ioc.png) no-repeat left -773px; position:absolute; left:3px; top:75px; z-index:10; cursor:pointer;}
+.recommend .tjlunbo .down{ width:22px; height:30px; background:url(../images/ioc.png) no-repeat right -773px; position:absolute; right:3px; top:75px; cursor:pointer;}
+
+.conright .heater{ width:953px; height:282px; border:#CCC solid 1px; margin-top:15px;}
+.heater h1{font-family:"微软雅黑"; font-size:18px; color:#900; height:42px; line-height:42px; border-bottom:#CCC solid 1px; padding-left:30px;}
+.heater h1 span{ margin-left:18px; font-size:12px; color:#999;}
+.heater h1 span b{ color:#900;}
+.heater h2{ height:28px; border-bottom:#CCC solid 1px; padding-top:10px;}
+.heater h2 b{ float:left; margin-left:53px;}
+.heater h2 span{ height:16px; border:#900 solid 1px; float:left; margin-left:13px; padding-left:5px; line-height:16px;}
+.heater h2 span p{ float:left;color:#900; font-size:12px;}
+.heater h2 span i{ width:15px; height:16px; float:left; background:url(../images/ioc.png) no-repeat 1px -836px; border-left:#900 solid 1px; margin-left:10px; cursor:pointer;}
+
+.heater h3{ height:39px; border-bottom:#CCC solid 1px; padding-left:86px;}
+.heater h3 b{ float:left; font-size:12px; margin-top:12px;}
+.heater h3 dl{ float:left;}
+.heater h3 dl dt{ float:left; margin-left:20px; font-size:12px; margin-top:12px; color:#666; display:inline; cursor:pointer;}
+.heater h3 dl .redss{ color:#900; text-decoration:underline;}
+.heater h3 dl dd{ float:left; margin-left:76px; margin-top:5px; display:inline;}
+.heater h3 dl dd input{ height:24px; float:left;}
+.heater h3 dl dd i{ float:left; margin-left:5px; margin-right:5px; margin-top:6px;}
+.heater h3 dl dd span{ width:38px; height:24px; border:#999 solid 1px; float:left; text-align:center; line-height:24px; margin-top:1px; margin-left:12px; color:#999; font-size:12px; cursor:pointer;}
+
+.heater h4{ height:83px; border-bottom:#CCC solid 1px; padding-left:86px;}
+.heater h4 b{ float:left; font-size:12px; margin-top:15px;}
+.heater h4 ul{ float:left; width:550px;}
+.heater h4 ul li{ float:left; margin-left:13px; margin-top:9px; cursor:pointer; display:inline;}
+.heater h4 span{ float:left; margin-top:62px; font-size:12px; color:#666; }
+
+.heater h5{ height:39px; line-height:39px; border-bottom:#ccc solid 1px; padding-left:86px;}
+.heater h5 b{ float:left; font-size:12px;}
+.heater h5 ol{ float:left;}
+.heater h5 ol li{ float:left; font-size:12px; margin-left:20px; display:inline; color:#666; cursor:pointer;}
+.heater h5 ol .redd{ color:#900; text-decoration:underline;}
+
+.heater h6{ height:36px; line-height:36px; padding-left:86px;}
+.heater h6 b{ float:left; font-size:12px;} 
+.heater h6 ul{ float:left;} 
+.heater h6 ul li{ float:left; font-size:12px; margin-left:18px; color:#666; cursor:pointer;} 
+.heater h6 ul .redk{ color:#900; text-decoration:underline;}
+
+.option{ margin-top:35px;}
+.option form{}
+.option h1{ height:28px; border:#CCC solid 1px; line-height:28px; background:#900;}
+.option h1 ul{ float:left;}
+.option h1 ul li{ float:left; width:62px; text-align:center; border-right:#FFF solid 1px; color:#FFF; background:url(../images/ioc.png) no-repeat -245px -828px; cursor:pointer;}
+.option h1 ul .white{ background:#fff; color:#900;}
+
+.option h2{ height:27px; border-bottom:#999 solid 1px; border-left:#999 solid 1px; border-right:#999 solid 1px; line-height:27px;}
+.option h2 ol{ float:left;}
+.option h2 ol li{ float:left; margin-left:18px;}
+.option h2 ol li b{ vertical-align:middle;}
+.option h2 ol li label{ margin-left:10px;}
+
+.option dl{ width:953px; float:left;}
+.option dl dt{ width:218px; height:297px; border:#CCC solid 2px; background:url(../images/discount.jpg); position:relative; float:left; margin-top:20px;}
+.option dl .redsd{ border:#900 solid 2px;}
+.option dl .redsds{ border:#900 solid 1px;}
+.option dl dt div{ width:218px; height:132px; background:#FFF; position:absolute; bottom:0px; opacity:0.8; padding-top:8px;}
+.option dl dt div p.curt{ width:218px; height:21px; margin-bottom:10px;}
+.option dl dt div p.cen{ margin-left:40px;}
+.option dl dt div p b{ width:70px; height:21px; line-height:21px; text-align:center; background:#900; float:left; margin-left:10px;}
+.option dl dt div p b.nic{ margin-left:34px;}
+.option dl dt div p b a.mun{color:#fff; font-size:12px;}
+.option dl dt div p a{ color:#333; font-size:12px;}
+.option dl dt div p.red{ margin-top:15px;}
+.option dl dt div p.red a{ color:#900; font-family:"Arial";}
+.option dl dt div p.huw{ margin-top:10px;}
+.option dl dt div p.huw span{ color:#0000cc; margin-left:49px;}
+
+.option dl dd{ width:181px; height:287px; border:#CCC solid 1px; padding-left:39px; padding-top:12px; float:left; margin-top:20px; margin-left:21px;}
+.option dl dd.curt{ margin-left:0px;}
+.option dl dd p{ font-size:12px; color:#333;}
+.option dl dd p a{ font-size:12px; color:#333;}
+.option dl dd p span{ font-size:12px; color:#333;}
+.option dl dd p.tops{ margin-top:3px;}
+.option dl dd p.red{ margin-top:15px;}
+.option dl dd p.red a{ color:#900; font-family:"Arial";}
+.option dl dd p.how{ margin-top:10px;}
+
+.option .number{ float:left; margin-top:16px; margin-left:570px; display:inline;}
+.option .number ul{ float:left;}
+.option .number ul li{ float:left; width:24px; height:19px; border:#ccc solid 1px; line-height:19px; text-align:center; margin-left:5px; color:#333; font-size:12px; cursor:pointer;}
+.option .number ul li.curt{ width:56px; height:19px;}
+.option .number ul li.red{ border:#900 solid 1px;}
+.option .number span{ float:left; height:19px; line-height:19px;}
+.option .number span label{ float:left; font-size:12px;}
+
+.option .number span .nics{ margin-left:20px;}
+.option .number span b{ float:left; margin-left:5px; margin-right:5px;}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*banner*/
+.banner{ max-width:1600px; min-width:1200px; height:397px; margin:auto; overflow:hidden;position:relative; cursor:pointer}
+.banner ul{ width:6400px; position:absolute; left:0px; height:397px}
+.banner ul li{ float:left; width:1600px;height:397px}
+.banner dl{ position:absolute; z-index:2; right:655px; bottom:20px;}
+.banner dl dt{ float:left; width:17px; height:17px; margin-left:6px; text-align:center; background:url(../images/ioc.png) no-repeat left -407px; color:#fff;}
+.banner dl .bg{ background:url(../images/ioc.png) no-repeat left -378px;}
+/*产品展示*/
+.product{ width:1200px; height:700px; margin:auto; margin-top:20px; overflow:hidden;}
+.product h2{ font-family:"微软雅黑"; font-size:14px; float:left; width:300px; height:30px; text-align:center; border-bottom:#999 solid 2px;cursor:pointer;}
+.product .curts{font-family:"微软雅黑"; font-size:18px; color:#7c0000; border-bottom:#7c0000 solid 4px; margin-top:-2px;}
+.product ul{ display:none;}
+.product .show{ display:block;}
+.product ul li{ float:left; width:282px; height:306px; border:#ccc solid 1px; margin-left:20px; margin-top:20px;}
+.product ul .curt{ margin-left:1px;}
+.product ul .redborder{ border:#F00 solid 1px;}
+.product ul li b a{ color:#333; margin-left:40px; display:block; margin-top:10px;}
+.product ul li p a{ color:#666; margin-left:40px; font-size:12px;}
+.product ul li h3{ margin-left:40px; font-size:12px; color:#666; margin-top:20px;}
+.product ul li strong{ margin-left:40px; font-size:12px;color:#990000; display:block; width:200px;}
+.product ul li strong i{ color:#666; font-size:12px; margin-left:10px; text-decoration:line-through;}
+.product ul li strong span{ display:block; width:74px; height:18px; background:#7c0000; text-align:center; line-height:18px; float:right;}
+.product ul li strong span a{ font-size:12px;color:#FFF;}
+/*风格家具*/
+.french{width:1200px; height:473px; margin:auto; margin-top:80px; border-top:#7c0000 solid 2px; position:relative;}
+.french h4{ font-size:12px;position:absolute; top:-21px; right:0; z-index:1;}
+.french h4 a{ font-size:12px; color:#333;}
+.french h4 i{ margin-left:20px;}
+.french h4 b{ margin-left:20px;}
+.french h4 span{ margin-left:20px; background:url(../images/ioc.png) no-repeat right -389px; padding-right:18px;}
+.french .left{ float:left; width:301px; height:473px; position:relative; border-left:#ccc solid 1px; border-right:#ccc solid 1px;}
+.french .left h1{ width:263px; height:61px; background:url(../images/1f.jpg); position:absolute; left:-1px; top:-49px; z-index:10; font-family:"微软雅黑"; font-size:18px; color:#fff; padding-left:40px; line-height:50px;}
+.french .left .f2{background:url(../images/2f.jpg);}
+.french .left .f3{background:url(../images/3f.jpg);}
+.french .left .f4{background:url(../images/4f.jpg);}
+.french .left h1 span{ font-size:12px; color:#F00; margin-left:10px;}
+.french .left dl{ margin-top:35px; margin-left:15px; }
+.french .left dl dt{color:#333;}
+.french .left dl dd{ margin-left:25px; margin-top:10px; font-size:12px;color:#333;}
+.french .left h2{ margin-top:10px;}
+.french .left b{ float:right; width:100px; height:21px;line-height:21px; background:url(../images/ioc.png) no-repeat left -296px;}
+.french .left b a{font-size:12px; color:#fff; margin-left:5px;}
+.french .left h3{ width:301px; height:65px; background:#9c3c39;padding-top:20px; margin-top:40px;}
+.french .left h3 p{ color:#fff;font-family:"微软雅黑"; font-size:16px; margin-left:60px; }
+.french .left h3 .curt{ margin-left:135px;}
+
+.french .right{ float:right; width:884px; height:473px;}
+.french .right .sofa{ width:370px; height:457px; float:left; border:#ccc solid 1px; margin-top:14px; margin-left:1px;}
+.french .right .red{ border:#900 solid 1px;}
+.french .right .nic2{ margin-left:16px;}
+.french .right .sofa h1{ margin-top:7px; margin-left:6px;}
+.french .right .sofa h2{ margin-left:6px; margin-top:5px;}
+.french .right .sofa h2 p{ margin-top:2px;}
+.french .right .sofa h2 p a{ font-size:12px; color:#333;}
+.french .right .sofa strong{ margin-left:6px; margin-top:10px; font-family:"微软雅黑"; font-size:18px; color:#F00;display:block; position:relative;}
+.french .right .sofa strong i{ font-size:12px; color:#333; margin-left:15px;}
+.french .right .sofa strong b{ display:block;width:61px; height:21px; line-height:21px; background:url(../images/ioc.png) no-repeat left -325px; padding-left:12px; position:absolute; right:0; top:5px; z-index:1;}
+.french .right .sofa strong b a{ color:#fff;}
+.french .right dl{ float:left; margin-left:16px; margin-top:14px;}
+.french .right .nic{ margin-left:0px;}
+.french .right dl dt{ width:230px; height:216px; border:#ccc solid 1px; padding-left:7px; padding-top:5px;}
+.french .right dl .red{ border:#900 solid 1px;}
+.french .right dl dd{ width:230px; height:216px; border:#ccc solid 1px; margin-top:13px; padding-left:7px; padding-top:5px;}
+.french .right dl p{margin-top:5px;}
+.french .right dl p a{ font-size:12px; color:#333;}
+.french .right dl b{ font-family:"Arial"; font-size:16px; color:#f00; margin-top:5px; display:block; position:relative;}
+.french .right dl b i{ margin-left:5px; font-size:12px; color:#333;}
+.french .right dl b span{width:53px; height:19px; line-height:19px; background:url(../images/ioc.png) no-repeat left -352px; padding-left:12px; position:absolute; right:0; top:0; z-index:1;}
+.french .right dl b span a{ font-size:12px; color:#fff;}
+
+
+
+
+
+
+
+
+

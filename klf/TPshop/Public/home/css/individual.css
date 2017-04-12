@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.current{ width:1200px; height:40px; margin:auto; line-height:40px;}
+.current a{ font-size:12px; color:#333;}
+.current .red{ color:#7c0000; text-decoration:underline;}
+.content{width:1200px; height:475px; margin:auto; height:600px;}
+
+.changepassword{}
+.changepassword ul{ float:left; width:1000px;}
+.changepassword ul li{ margin-top:25px;}
+.changepassword ul li label{ width:80px; display:block; float:left; text-align:right;}
+.changepassword ul li span{ margin-left:15px;}
+.changepassword ul li span input { vertical-align:middle;}
+.changepassword ul li input{ height:20px;}
+.changepassword ul li b{ margin-left:15px;}
+.changepassword ul li b img{ border:#CCC solid 1px;}
+.changepassword ul li select{ width:50px; height:20px;}
+.changepassword form p{ float:left; margin-left:85px; margin-top:35px;}
+

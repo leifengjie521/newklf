@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+	    <meta charset="utf-8"/>
+	    <meta http-equiv="x-ua-compatible" content="ie=7" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	    <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/Registered.css"/>
+		<script src="__PUBLIC__/home/js/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+	$(".mm").click(function(){
+		$(".mm").val("")
+		$(".mm").css("color","#000")
+		})
+	$(".nic").click(function(){
+		$(".nic").val("")
+		$(".nic").css("color","#000")
+		})
+	$(".nic2").click(function(){
+		$(".nic2").val("")
+		$(".nic2").css("color","#000")
+		})
+		
+	<!--提交表单-->
+		$('.Register-button').click(function(){
+		if(!$('input').val()){
+			alert("请填写完整信息")
+			return false
+			}
+		$("#myform").submit();
+		})
+    });
+	
+</script>
+	</head>
+    <body>
+	    <!--头部-->
+	    <div class="header">
+			<!--头部居中-->
+			<div class="header-center">
+			    <div class="logo"><img src="__PUBLIC__/home/images/pinklogo.jpg"/></div>
+				<!--欢迎注册-->
+				<div class="Welcome-to-register"><p>欢迎注册</p></div>
+			</div>
+		</div>
+	    <!-- 身体-->
+	    <div class="container">
+		    <div class="container-center">
+				<!--注册内容-->
+				<div class="Registration-box">
+				    <!--注册标题-->
+					<div class="Registered-title">
+					    <p class="p-one">用户注册</p>
+						<p class="p-two">已有账号，现在去 <a href="SignIn.html">登录</a></p>
+					</div>
+					<!--详细注册-->
+					<form action="{:U('public/registers')}" method="post">
+						<div class="Detailed-registration-box">
+							<ul>
+								<!--用户名-->
+								<li class="User-name">
+									<span class="User-name-z"><em>*</em>用户名：</span>
+									<span><input class="Input-box" type="text" name="name" placeholder="请输入用户名"/></span>
+								</li>
+								<!--密码-->
+								<li class="User-name">
+									<span class="User-name-z"><em>*</em>密码：</span>
+									<span><input class="Input-box" type="text" name="pass" placeholder="8位或以上数字、字母、下划线" /></span>
+								</li>
+								<!--确认密码-->
+								<li class="User-name">
+									<span class="User-name-z"><em>*</em>确认密码：</span>
+									<span><input class="Input-box" type="text" name="quepass" placeholder="请再次确认密码" /></span>
+								</li>
+								<!--e-mail-->
+								<li class="User-name">
+									<span class="User-name-z"><em>*</em>E-mail：</span>
+									<span><input class="Input-box" type="email"  name="email"/></span>
+								</li>
+								<!--手机号-->
+								<li class="User-name">
+									<span class="User-name-z"><em>*</em>手机号：</span>
+									<span>
+										<input class="Input-box" type="text" name="phone" />
+									</span>
+								</li>
+								<!--省市区-->
+								<li class="User-name">
+									<span class="User-name-z"><em>*</em>所在地：</span>
+								
+										<select id='province' onchange="setCity(this.value); getArea();" name="province" style="width:70px; height:26px;">
+											<option value="">请选择</option>
+										</select>
+										<select id='city' onchange="setCounty(this.value); getArea();" name="city" style="width:70px; height:26px;">
+											<option value="">请选择</option>
+										</select>
+										<select id='county' name="county" onchange="getArea();" style="width:70px; height:26px;">
+											<option value="">请选择</option>
+										</select>
+										<input id='area' name='area' type='hidden' value='' />
+										<script type='text/javascript' language='javascript' src='__PUBLIC__/home/js/localtion.js'></script>
+								</li>
+								<!--验证码-->
+								<li class="User-name">
+									<span class="User-name-z"><em>*</em>验证码：</span>
+									<span>
+										<input class="Input-box-two" type="text" name="yzm" size="15"/>
+										<img class="Verification-code" src="{:U('Public/yzm')}" onclick="this.src=this.src+'?'" />
+									</span>
+									<span class="Change-one">点击图片换一张</span>
+								</li>
+								<!--同意条件-->
+								<li class="Agreement">
+									<span class="Agreement-z">
+										<input class="xuan" type="checkbox" name="check"/>我已阅读并同意<a href="#"><em>《XX协议》</em></a>
+									</span>
+								</li>
+								<!--注册按钮-->
+								<li class="Register-button-k">
+									<input class="Register-button"  type="submit" value="立即注册"/>
+								</li>
+							</ul>
+						</div>
+					</form>
+					
+				</div>
+			</div>
+		</div>
+	    <!-- 身体-->
+	    <div class="footer">
+		    <div class="fonter-center">
+			    <ul>
+				    <li><a href="#">关于我们</a> | <a href="#">联系我们</a> | <a href="#">商家入驻</a> | <a href="#">营销中心</a> | <a href="#">友情链接</a> | <a href="#">销售联盟</a> | <a href="#">某某社区</a> | <a href="#">某某公益</a> | <a href="#">某某中心</a> | <a href="#">English Site</a> | <a href="#">Contact  Us</a> </li>
+					<li><img src="__PUBLIC__/home/images/renzheng.jpg"/></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

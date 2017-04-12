@@ -1,0 +1,52 @@
+<h2 class="contentTitle">修改用户</h2>
+<div class="pageContent">
+	<form method="post" action="{:U('Admin/editAction')}?callbackType=closeCurrent" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone)">
+		<div class="pageFormContent nowrap" layoutH="97">
+			<dl>
+				<dt>用户名：</dt>
+				<dd>
+					<input type="text" name="name" maxlength="20" class="required" value="{$info.name}" />
+					
+				</dd>
+			</dl>
+			<dl>
+				<dt>用户名：</dt>
+				<dd>
+					<input type="text" name="pass" maxlength="20" class="required" value="{$info.pass}" />
+					
+				</dd>
+			</dl>
+			<dl>
+				<dt>权限：</dt>
+				<dd>
+					<input type="text" name="quanxian" maxlength="20" class="required" value="{$info.quanxian}" />
+					
+				</dd>
+			</dl>
+			<dl>
+				<dt>分类：</dt>
+				<dd>
+					<<input type="text" name="fenlei" maxlength="20" class="required" value="{$info.fenlei}"/>
+					<input type="hidden" name="id" maxlength="20" class="required" value="{$info.id}" />
+					
+				</dd>
+			</dl>
+		</div>
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">提交</button></div></div></li>
+				<li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+			</ul>
+		</div>
+	</form>
+	
+</div>
+
+
+<script type="text/javascript">
+function customvalidXxx(element){
+	if ($(element).val() == "xxx") return false;
+	return true;
+}
+
+</script>

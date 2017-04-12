@@ -1,0 +1,950 @@
+[ 2017-04-05T16:54:24+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-05T16:54:26+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Fenlei/lists.html?_=1491382464628
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from tp_fenlei as a order by concat(a.pid,a.id) [ RunTime:0.0360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 5 行.
+NOTIC: [8] Undefined variable: fenname D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 6 行.
+NOTIC: [8] Undefined variable: fenname D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 35 行.
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 81 行.
+NOTIC: [8] Undefined variable: totalCount D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 87 行.
+NOTIC: [8] Undefined variable: totalCount D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+NOTIC: [8] Undefined variable: pageNumShown D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+NOTIC: [8] Undefined variable: currentPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-05T16:54:27+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/lists.html?_=1491382464629
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\TPshop\Application\Admin\Controller\ListinfoController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_listinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_listinfo` LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 6 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-05T16:54:31+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/edit.html?uid=1&_=1491382464630
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_recommend` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_recommend`  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_listinfo` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-05T16:56:21+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/addAction.html?callbackType=closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp\www\TPshop\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0040s ]
+ERR: 1048:Le champ 'photo' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `tp_listinfo` (`title`,`content`,`id`,`recommend_id`,`photo`) VALUES ('雅旦﹒戈乐加长款 OL气质白领丽人冬装女','阿斯顿','1','1',NULL)
+ERR: 1048:Le champ 'photo' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `tp_listinfo` (`title`,`content`,`id`,`recommend_id`,`photo`) VALUES ('雅旦﹒戈乐加长款 OL气质白领丽人冬装女','阿斯顿','1','1',NULL)
+
+[ 2017-04-05T16:56:24+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-05T16:56:26+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/lists.html?_=1491382584330
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\TPshop\Application\Admin\Controller\ListinfoController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_listinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_listinfo` LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 6 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-05T16:58:53+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-05T16:58:55+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/lists.html?_=1491382733084
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\TPshop\Application\Admin\Controller\ListinfoController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_listinfo` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_listinfo` LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 6 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-05T16:58:58+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/edit.html?uid=1&_=1491382733085
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_recommend` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `tp_recommend`  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_listinfo` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-05T16:59:36+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/addAction.html?callbackType=closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\TPshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0050s ]
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_listinfo` (`title`,`content`,`id`,`recommend_id`,`photo`) VALUES ('羊毛呢大衣','雅旦﹒戈乐加长款 OL气质白领丽人冬装女','1','1','58e4b1f87104c.jpg')
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_listinfo` (`title`,`content`,`id`,`recommend_id`,`photo`) VALUES ('羊毛呢大衣','雅旦﹒戈乐加长款 OL气质白领丽人冬装女','1','1','58e4b1f87104c.jpg')
+
+[ 2017-04-05T16:59:39+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/addAction.html?callbackType=closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\TPshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0050s ]
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_listinfo` (`title`,`content`,`id`,`recommend_id`,`photo`) VALUES ('羊毛呢大衣','雅旦﹒戈乐加长款 OL气质白领丽人冬装女','1','1','58e4b1fbabe6d.jpg')
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_listinfo` (`title`,`content`,`id`,`recommend_id`,`photo`) VALUES ('羊毛呢大衣','雅旦﹒戈乐加长款 OL气质白领丽人冬装女','1','1','58e4b1fbabe6d.jpg')
+
+[ 2017-04-05T16:59:40+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/addAction.html?callbackType=closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\TPshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0040s ]
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_listinfo` (`title`,`content`,`id`,`recommend_id`,`photo`) VALUES ('羊毛呢大衣','雅旦﹒戈乐加长款 OL气质白领丽人冬装女','1','1','58e4b1fcc936d.jpg')
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_listinfo` (`title`,`content`,`id`,`recommend_id`,`photo`) VALUES ('羊毛呢大衣','雅旦﹒戈乐加长款 OL气质白领丽人冬装女','1','1','58e4b1fcc936d.jpg')
+
+[ 2017-04-05T16:59:41+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/addAction.html?callbackType=closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\TPshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0040s ]
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_listinfo` (`title`,`content`,`id`,`recommend_id`,`photo`) VALUES ('羊毛呢大衣','雅旦﹒戈乐加长款 OL气质白领丽人冬装女','1','1','58e4b1fd8e248.jpg')
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_listinfo` (`title`,`content`,`id`,`recommend_id`,`photo`) VALUES ('羊毛呢大衣','雅旦﹒戈乐加长款 OL气质白领丽人冬装女','1','1','58e4b1fd8e248.jpg')
+
+[ 2017-04-05T16:59:42+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/addAction.html?callbackType=closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\TPshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0040s ]
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_listinfo` (`title`,`content`,`id`,`recommend_id`,`photo`) VALUES ('羊毛呢大衣','雅旦﹒戈乐加长款 OL气质白领丽人冬装女','1','1','58e4b1fe494e1.jpg')
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_listinfo` (`title`,`content`,`id`,`recommend_id`,`photo`) VALUES ('羊毛呢大衣','雅旦﹒戈乐加长款 OL气质白领丽人冬装女','1','1','58e4b1fe494e1.jpg')
+
+[ 2017-04-05T16:59:48+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-05T16:59:50+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Fenlei/lists.html?_=1491382788538
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from tp_fenlei as a order by concat(a.pid,a.id) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 5 行.
+NOTIC: [8] Undefined variable: fenname D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 6 行.
+NOTIC: [8] Undefined variable: fenname D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 35 行.
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 81 行.
+NOTIC: [8] Undefined variable: totalCount D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 87 行.
+NOTIC: [8] Undefined variable: totalCount D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+NOTIC: [8] Undefined variable: pageNumShown D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+NOTIC: [8] Undefined variable: currentPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-05T16:59:51+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/lists.html?_=1491382788539
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\TPshop\Application\Admin\Controller\ListinfoController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_listinfo` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_listinfo` LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 6 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-05T17:01:17+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-05T17:01:20+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Fenlei/lists.html?_=1491382877959
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from tp_fenlei as a order by concat(a.pid,a.id) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 5 行.
+NOTIC: [8] Undefined variable: fenname D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 6 行.
+NOTIC: [8] Undefined variable: fenname D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 35 行.
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 81 行.
+NOTIC: [8] Undefined variable: totalCount D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 87 行.
+NOTIC: [8] Undefined variable: totalCount D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+NOTIC: [8] Undefined variable: pageNumShown D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+NOTIC: [8] Undefined variable: currentPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-05T17:01:21+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/lists.html?_=1491382877960
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\TPshop\Application\Admin\Controller\ListinfoController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_listinfo` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_listinfo` LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 6 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-05T17:01:23+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/edit.html?uid=1&_=1491382877961
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_recommend` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_recommend`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_listinfo` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-04-05T17:01:55+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/editAction.html?callbackType=closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\TPshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: check D:\wamp\www\TPshop\Application\Admin\Controller\ListinfoController.class.php 第 163 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\TPshop\Application\Admin\Controller\ListinfoController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `tp_tuijianlist` [ RunTime:0.0050s ]
+SQL: DELETE FROM `tp_tuijianlist` WHERE ( p_id=1 ) [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0030s ]
+SQL: UPDATE `tp_listinfo` SET `title`='羊毛呢大衣',`content`='雅旦﹒戈乐加长款 OL气质白领丽人冬装女',`size`='加大',`recommend_id`='' WHERE `id` = 1 [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: message D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 268 行.
+NOTIC: [8] Undefined index: navTabId D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 269 行.
+NOTIC: [8] Undefined index: rel D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 270 行.
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 272 行.
+
+[ 2017-04-05T17:01:56+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_listinfo` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_listinfo` LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 6 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-05T17:11:30+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-04-05T17:11:34+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/lists.html?_=1491383490995
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\TPshop\Application\Admin\Controller\ListinfoController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_listinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_listinfo` LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 6 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-05T17:12:37+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/add.html?_=1491383490996
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from tp_fenlei as a order by concat(a.pid,a.id) [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_recommend` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_recommend`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\6ac43c756e51f6ea3a00a32304f8dd74.php 第 12 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\6ac43c756e51f6ea3a00a32304f8dd74.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-05T17:12:59+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/addAction.html?callbackType=closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\TPshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0080s ]
+SQL: INSERT INTO `tp_listinfo` (`p_id`,`title`,`content`,`recommend_id`,`photo`) VALUES ('1','123','123','1','58e4b51b2b2c4.jpg') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_tuijianlist` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tp_tuijianlist` (`p_id`,`t_id`,`name`) VALUES ('130','1','123') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: message D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 268 行.
+NOTIC: [8] Undefined index: navTabId D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 269 行.
+NOTIC: [8] Undefined index: rel D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 270 行.
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 272 行.
+
+[ 2017-04-05T17:12:59+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_listinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_listinfo` LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 6 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-05T17:13:26+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/edit.html?uid=130&_=1491383490997
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_recommend` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_recommend`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_listinfo` WHERE ( id=130 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-05T17:14:02+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/editAction.html?callbackType=closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\TPshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: check D:\wamp\www\TPshop\Application\Admin\Controller\ListinfoController.class.php 第 163 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\TPshop\Application\Admin\Controller\ListinfoController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `tp_tuijianlist` [ RunTime:0.0050s ]
+SQL: DELETE FROM `tp_tuijianlist` WHERE ( p_id=130 ) [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_listinfo` SET `title`='羊毛呢大衣',`content`='雅旦﹒戈乐加长款 OL气质白领丽人冬装女',`size`='加大',`recommend_id`='' WHERE `id` = 130 [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: message D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 268 行.
+NOTIC: [8] Undefined index: navTabId D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 269 行.
+NOTIC: [8] Undefined index: rel D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 270 行.
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 272 行.
+
+[ 2017-04-05T17:14:02+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_listinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_listinfo` LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 6 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-04-05T17:14:10+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/del.html?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0050s ]
+SQL: DELETE FROM `tp_listinfo` WHERE ( id = 1 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_tuijianlist` [ RunTime:0.0060s ]
+SQL: DELETE FROM `tp_tuijianlist` WHERE ( p_id = 1 ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: message D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 268 行.
+NOTIC: [8] Undefined index: navTabId D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 269 行.
+NOTIC: [8] Undefined index: rel D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 270 行.
+NOTIC: [8] Undefined index: callbackType D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 271 行.
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 272 行.
+
+[ 2017-04-05T17:14:23+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-05T17:14:25+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/lists.html?_=1491383663752
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\TPshop\Application\Admin\Controller\ListinfoController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_listinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_listinfo` LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 6 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-05T17:15:04+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/add.html?_=1491383663753
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from tp_fenlei as a order by concat(a.pid,a.id) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_recommend` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_recommend`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\6ac43c756e51f6ea3a00a32304f8dd74.php 第 12 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\6ac43c756e51f6ea3a00a32304f8dd74.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-05T17:15:11+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/addAction.html?callbackType=closeCurrent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\TPshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0060s ]
+SQL: INSERT INTO `tp_listinfo` (`p_id`,`title`,`content`,`recommend_id`,`photo`) VALUES ('1','1','1','1','58e4b59f91da2.png') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_tuijianlist` [ RunTime:0.0080s ]
+SQL: INSERT INTO `tp_tuijianlist` (`p_id`,`t_id`,`name`) VALUES ('131','1','1') [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: message D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 268 行.
+NOTIC: [8] Undefined index: navTabId D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 269 行.
+NOTIC: [8] Undefined index: rel D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 270 行.
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 272 行.
+
+[ 2017-04-05T17:15:11+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_listinfo` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_listinfo` LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 6 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-04-05T17:15:17+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/del.html?uid=131
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0050s ]
+SQL: DELETE FROM `tp_listinfo` WHERE ( id = 131 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_tuijianlist` [ RunTime:0.0060s ]
+SQL: DELETE FROM `tp_tuijianlist` WHERE ( p_id = 131 ) [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: message D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 268 行.
+NOTIC: [8] Undefined index: navTabId D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 269 行.
+NOTIC: [8] Undefined index: rel D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 270 行.
+NOTIC: [8] Undefined index: callbackType D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 271 行.
+NOTIC: [8] Undefined index: forwardUrl D:\wamp\www\TPshop\ThinkPHP\Library\Think\Controller.class.php 第 272 行.
+
+[ 2017-04-05T17:15:17+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_listinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_listinfo` LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 6 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-05T17:21:01+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-05T17:21:04+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Fenlei/lists.html?_=1491384061908
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from tp_fenlei as a order by concat(a.pid,a.id) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 5 行.
+NOTIC: [8] Undefined variable: fenname D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 6 行.
+NOTIC: [8] Undefined variable: fenname D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 35 行.
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 81 行.
+NOTIC: [8] Undefined variable: totalCount D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 87 行.
+NOTIC: [8] Undefined variable: totalCount D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+NOTIC: [8] Undefined variable: pageNumShown D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+NOTIC: [8] Undefined variable: currentPage D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\4560a8444faaf61d2ad5747eb27eb2e7.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-05T17:21:05+08:00 ] 127.0.0.1 /TPshop/index.php/Admin/Listinfo/lists.html?_=1491384061909
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\TPshop\Application\Admin\Controller\ListinfoController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_listinfo` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_listinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_listinfo` LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 6 行.
+NOTIC: [8] Undefined variable: title D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 35 行.
+NOTIC: [8] Undefined index: price D:\wamp\www\TPshop\Application\Runtime\Cache\Admin\3e9be36d4c84f3bcc2ea93d00e110055.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

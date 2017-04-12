@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+.current{ width:1200px; height:40px; margin:auto; line-height:40px;}
+.current a{ font-size:12px; color:#333;}
+.current .red{ color:#7c0000; text-decoration:underline;}
+.content{width:1200px; height:700px; margin:auto;}
+
+
+.information{ float:right;}
+.information .Personal{ width:1028px; height:206px; border:#CCC solid 1px; margin-top:40px; position:relative;}
+.information .Personal strong{ position:absolute; top:-17px; right:0px;;}
+.information .Personal strong a{ color:#666; font-size:12px;}
+.information .Personal ul{ float:left; margin-left:22px; margin-top:37px; display:inline;}
+.information .Personal ul li{ float:left; position:relative;}
+.information .Personal ul li.tp{ width:120px; height:122px;}
+.information .Personal ul li i{ width:118px; height:14px; position:absolute; left:1px; bottom:1px; z-index:1; background:#000; opacity:0.5; text-align:center;}
+.information .Personal ul li i a{ color:#fff; font-size:12px;}
+.information .Personal ul li.curt{ margin-left:10px; width:800px;}
+.information .Personal ul li h3{ font-family:"微软雅黑"; font-size:27px; color:#666; float:left; width:500px;}
+.information .Personal ul li h3 span{ font-family:"微软雅黑"; font-size:15px;}
+.information .Personal ul li dl{ float:left; width:800px;}
+.information .Personal ul li dl dt{ float:left; border-right:#CCC solid 1px; width:234px; text-align:center; margin-top:20px;}
+.information .Personal ul li dl dt.curts{ width:70px; padding-right:30px;}
+
+
+.information .Personal ul li dl dt p{ margin-top:10px;}
+.information .Personal ul li h5{float:left; margin-top:5px; width:600px;}
+.information .Personal ul li h5 b{ margin-left:5px; float:left; margin-top:5px;}
+.information .Personal ul li h5 b img{ margin-left:10px;}
+.information .Personal ul li h5 span{ margin-left:25px; height:25px; display:block; float:left;background:url(../images/ioc.png) no-repeat left -569px; line-height:25px; padding-left:30px;}
+
+
+.collection{ width:1028px; height:207px; border:#CCC solid 1px; margin-top:28px;}
+.collection h6{ font-family:"微软雅黑"; height:48px; line-height:48px; color:#666; padding-left:20px; border-bottom:#CCC solid 1px;}
+.collection .lunbo2{ width:1028px; height:158px; position:relative; overflow:hidden;}
+.collection .lunbo2 ul{ float:left; margin-top:15px; position:absolute; left:0px;}
+.collection .lunbo2 ul li{ float:left; width:280px; margin-left:50px; display:inline;}
+.collection .lunbo2 ul li img{ float:left;}
+.collection .lunbo2 ul li p{ float:left; margin-top:15px; margin-left:5px;}
+.collection .lunbo2 ul li p a{ font-size:12px; color:#666; display:block; margin-top:5px;}
+.collection .lunbo2 ul li p a.curt3{ color:#900; font-family:"Arial";}
+.collection .lunbo2 .up{ width:25px; height:55px; background:url(../images/up.jpg); position:absolute; left:10px; top:45px; cursor:pointer; z-index:1;}
+.collection .lunbo2 .down{ width:25px; height:55px; background:url(../images/down.jpg); position:absolute; right:10px; top:45px; cursor:pointer; z-index:1;}
+
+
+.orders{ width:1028px; height:194px; border:#CCC solid 1px; margin-top:20px; position:relative;}
+.orders h5{ font-family:"微软雅黑"; height:48px; line-height:48px; color:#666; padding-left:20px; border-bottom:#CCC solid 1px;}
+.orders ol{ float:left;}
+.orders ol li{ float:left; margin-top:25px;}
+.orders ol li.jl{ margin-left:50px; display:inline;}
+.orders ol li.jl2{ margin-left:100px;}
+.orders ol li p{ margin-top:20px; color:#333;}
+.orders ol li p span{ margin-left:60px;}
+.orders ol li p span a{ color:#666;}
+.orders b{ float:left; width:65px; height:21px; background:#990000; text-align:center; line-height:21px; position:absolute; top:120px; right:67px;}
+.orders b a{ color:#fff; font-size:12px;}
+
+
+
+
+

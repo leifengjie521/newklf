@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0; font-size:14px; font-size:14px; font-family:"宋体";}
+h1{ font-weight:normal;}
+li{ list-style-type:none;}
+a{ text-decoration:none;}
+img{ border:0px;}
+.top{ width:1200px; height:148px; margin:auto;}
+.logo{ width:210px; height:148px;  margin-left:120px;}
+.banner{ background:url(../images/banner.jpg); max-width:1600px; height:434px; min-width:1200px;margin: 0px auto; overflow: hidden;}
+.content{ width:1200px; height:434px; margin:auto;}
+.content .login{ width:350px; height:329px; background:#FFF; border:#CCC solid 1px; float:right; margin-right:170px; margin-top:53px; display:inline;}
+.login form{ width:244px; margin:auto;}
+.login h1{ height:30px; line-height:30px; margin-top:55px;}
+.login h1 label{ float:left; font-family:"微软雅黑"; font-size:18px;}
+.login h1 span{ float:right; font-size:12px; color:#999999; margin-top:5px;}
+.login li{ width:244px; height:30px; line-height:30px; margin-top:5px;}
+.login li .yhm{ width:214px; height:30px; line-height:30px; border:#900 solid 1px; background:url(../images/ioc.png) repeat-x left -1px;padding-left:30px; color:#ccc;}
+.login li .mm{ width:214px; height:30px; line-height:30px; background:url(../images/ioc.png) repeat-x left -36px; padding-left:30px; color:#000;}
+
+.login .red{ color:#990000; font-size:12px;}
+.login li .left{ float:left; height:30px; line-height:30px;}
+.login li label{ float:left; font-size:12px;}
+.login li span{ float:right;}
+.login li span a{  font-size:12px; color:#999999;}
+.login .bg{ background:url(../images/ioc.png) no-repeat left -120px;}
+.bg a{color:#FFF; margin-left:105px;font-family:"微软雅黑"; font-size:18px; letter-spacing:5px;}
+.bottom{ height:70px; text-align:center; line-height:70px; border-top:#CCC solid 1px; font-size:12px;}

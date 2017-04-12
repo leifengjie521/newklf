@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+.current{ width:1200px; height:40px; margin:auto; line-height:40px;}
+.current a{ font-size:12px; color:#333;}
+.current .red{ color:#7c0000; text-decoration:underline;}
+.content{width:1200px; height:661px; margin:auto;}
+
+.changepassword h3{ font-size:12px; color:#666; margin-top:20px;}
+.changepassword h3 span{ font-size:12px; margin-left:20px; color:#1050af;}
+.changepassword h3 span.curt{ margin-left:0px;}
+
+.changepassword h4{ margin-top:20px; height:20px; line-height:20px;}
+.changepassword h4 b{ float:left; font-size:12px; color:#900;}
+.changepassword h4 input{ float:left; height:20px;}
+.changepassword h4 span{ font-size:12px; width:62px; height:23px; background:#900; color:#fff; border:#CCC solid 1px; line-height:23px; text-align:center; float:left; margin-left:5px; cursor:pointer;}
+
+.changepassword .xinxi{width:1028px; height:524px; border:#9a9a9a solid 1px; margin-top:15px;}
+.xinxi .heads dl{width:1028px; float:left; border-bottom:#9a9a9a solid 1px;}
+.xinxi .heads dl dt{ width:390px; height:33px; float:left; padding-top:17px;}
+.xinxi .heads dl dt b{ margin-left:34px; vertical-align:middle;}
+.xinxi .heads dl dt label{ margin-left:10px; color:#666; font-size:12px;}
+.xinxi .heads dl dt span{ margin-left:106px;color:#666;font-size:12px;font-family:"微软雅黑";}
+.xinxi .heads dl dd{ width:116px; height:33px; float:left; padding-top:17px; border-left:#9a9a9a solid 1px; text-align:center;color:#666;font-size:12px;}
+
+.xinxi ul{ float:left;}
+.xinxi ul li{ width:971px; height:123px; border:#CCC solid 1px; margin-top:15px; margin-left:25px;}
+.xinxi h5{ height:36px; border-bottom:#CCC solid 1px; line-height:36px;}
+.xinxi h5 b{ vertical-align:middle; margin-left:10px;}
+.xinxi h5 label{ margin-left:15px;}
+.xinxi h5 span{ margin-left:47px;}
+
+.xinxi h6{ margin-top:5px;}
+.xinxi h6 b{ float:left; margin-left:30px;}
+.xinxi h6 span{ float:left;}
+.xinxi h6 .liebiao{ margin-left:5px;}
+.xinxi h6 .liebiao p a{ color:#666666;font-size:12px;}
+.xinxi h6 .liebiao .nic{ margin-top:18px;}
+.xinxi h6 .liebiao .nic a{ color:#999; font-size:12px;}
+.xinxi h6 .liebiao .nic2 a{color:#999; font-size:12px;}
+.xinxi h6 .message{ width:116px; height:46px; text-align:center; border-left:#CCC solid 1px; margin-top:15px; color:#666; font-size:12px;}
+.xinxi h6 .message p{ font-size:12px;}
+.xinxi h6 .message .tops{ margin-top:8px;}
+.xinxi h6 .message .tops2{ margin-top:2px;}
+.xinxi h6 .message .tops2 a{ color:#666; font-size:12px;}
+.xinxi h6 .hg{ line-height:46px;}
+.xinxi h6 .left{ margin-left:32px;}
+.xinxi h6 .messages{ width:116px;  border-left:#CCC solid 1px; margin-top:10px;}
+.xinxi h6 .messages p{color:#666; font-size:12px; margin-top:1px; margin-left:25px; text-align:center;}
+.xinxi h6 .messages p a{color:#666; font-size:12px;}
+.xinxi h6 .messages .mune{  background:#900;width:65px; height:21px; line-height:21px;text-align:center;}
+.xinxi h6 .messages .mune a{ color:#fff;}
+.xinxi h6 .messages .mune2{width:65px; cursor:pointer;}
+.xinxi h6 .messages .mune3{width:65px;}
+.xinxi h6 .messages .time{ background:url(../images/ioc.png) no-repeat left -608px; padding-left:5px; width:110px; margin-left:8px;}
+
+.xinxi h1{ float:left; margin-left:25px; padding-top:15px; display:inline;}
+.xinxi h1 b{ float:left;}
+.xinxi h1 label{ float:left; font-size:12px; margin-left:7px;}
+.xinxi h1 dl{ float:left; margin-left:535px; display:inline;}
+.xinxi h1 dl dt{ float:left; font-size:12px; width:56px; height:20px; border:#CCC solid 1px; line-height:20px; text-align:center; margin-left:5px; cursor:pointer;}
+
+.xinxi h1 dl dd{ float:left; font-size:12px; width:24px; height:20px; border:#CCC solid 1px; line-height:20px; text-align:center; margin-left:5px; cursor:pointer;}
+.xinxi h1 dl .red2{ border:#900 solid 1px;}
+.xinxi h1 span{ margin-left:5px; font-size:12px;}
+.xinxi h1 span input{ margin-left:5px; margin-right:5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+.current{ width:1200px; height:40px; margin:auto; line-height:40px;}
+.current a{ font-size:12px; color:#333;}
+.current .red{ color:#7c0000; text-decoration:underline;}
+.content{width:1200px; height:920px; margin:auto;}
+
+
+.add{ height:900px; border:#CCC solid 1px;}
+.add h3{font-family:"微软雅黑"; border-bottom:#CCC solid 1px; height:40px; line-height:40px; width:970px; margin-left:28px;}
+
+.add .myadd ul { margin-left:64px; margin-top:12px; width:445px; height:335px;}
+.add .myadd ul li{ margin-top:15px; color:#999; font-size:12px; position:relative; float:left; width:445px;}
+.add .myadd ul li.nic{ width:430px;}
+.add .myadd ul li label{ width:78px; height:24px; line-height:24px; font-size:12px; float:left; color:#666;}
+.add .myadd ul li b{ float:left; }
+.add .myadd ul li b .fl{}
+.add .myadd ul li b input.size{ font-size:12px; color:#999;}
+.add .myadd ul li b input{ height:24px;}
+.add .myadd ul li .line{ vertical-align:middle;}
+.add .myadd ul li span{ font-size:12px; color:#999; margin-left:10px;}
+.add .myadd ul li span.error{ color:#900; background:url(../images/ioc.png) no-repeat left -636px; padding-left:20px; height:14px; display:block; position:absolute; top:6px; right:0px; display:inline;}
+.add .myadd ul li i{ width:105px; height:24px; background:#990000; color:#fff;font-family:"微软雅黑"; font-size:16px; display:block; text-align:center; margin-left:100px; cursor:pointer;}
+.add .myadd h4{ color:#900;font-family:"微软雅黑"; margin-left:28px; margin-top:40px;}
+
+.add .lists{ width:960px; height:402px; margin-top:20px; margin-left:28px; border:#CCC solid 1px; position:relative;}
+.add .lists dl dt{ height:36px; line-height:36px; background:#e7e5e5; border-bottom:#CCC solid 1px;}
+.add .lists dl dt ol{ float:left;}
+.add .lists dl dt ol li{ float:left;font-family:"微软雅黑"; padding-left:14px; border-left:#CCC solid 1px;}
+.add .lists dl dt ol .width1{ width:86px;}
+.add .lists dl dt ol .width2{ width:156px;}
+.add .lists dl dt ol .width3{ width:296px;}
+.add .lists dl dt ol .width4{ width:86px;}
+.add .lists dl dt ol .width5{ width:96px;}
+
+.add .lists dl dd{ height:77px; border-bottom:#CCC solid 1px;}
+.add .lists dl .pink{ background:#e7e5e5;}
+.add .lists dl .hie{ display:none;}
+.add .lists dl .show{ display:block;}
+.add .lists dl dd ol{ float:left; padding-top:28px;}
+.add .lists dl dd ol li{ float:left;font-family:"微软雅黑"; padding-left:14px;}
+.add .lists dl dd ol .width6{ width:86px;}
+.add .lists dl dd ol .width7{ width:156px;}
+.add .lists dl dd ol .width8{ width:296px;}
+.add .lists dl dd ol .width9{ width:86px;}
+.add .lists dl dd ol .width10{ width:96px;}
+
+.add .lists dl dd ol li p{font-family:"微软雅黑";}
+.add .lists dl dd ol li b{font-family:"微软雅黑"; color:#900; cursor:pointer;}
+.add .lists dl dd ol li span{font-family:"微软雅黑"; margin-left:8px; cursor:pointer;}
+.add .lists dl dd ol li i{font-family:"微软雅黑"; width:69px; height:24px; background:#900; color:#fff; display:block; text-align:center; line-height:24px; cursor:pointer;}
+
+.lists ul{float:left; position:absolute; bottom:15px; right:0px;}
+.lists ul li{ float:left; width:24px; height:19px;border:#CCC solid 1px; text-align:center; line-height:19px; margin-left:5px;cursor:pointer; font-size:12px;}
+.lists ul li.updown{ width:56px; height:19px;}
+.lists ul li.jump{ width:120px; border:0px;}
+.lists ul .red{ border:#900 solid 1px;}
+
+.canp{ margin-top:60px;}
+
+
+
+
+
+
+
+
+
